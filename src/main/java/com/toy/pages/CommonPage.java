@@ -24,7 +24,9 @@ public class CommonPage extends BasePage {
 		String locator = "[class='vis-accordion-expand']";
 		List<WebElement> elements = driver.findElements(By.cssSelector(locator));
 		for(WebElement element : elements) {
+			sleepInSecond(2);
 			clickOn(element);
+			
 		}
 		String locator1 = "[class='vis-accordion-expand'][style=\"display: none;\"]";
 		List<WebElement> elementAfterClick = driver.findElements(By.cssSelector(locator1));
