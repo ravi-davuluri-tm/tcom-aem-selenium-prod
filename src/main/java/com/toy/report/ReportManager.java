@@ -34,7 +34,7 @@ public class ReportManager {
 		  if(extent == null){
 	        	String workingDir = System.getProperty("user.dir");		        	
 	            //Set HTML reporting file location
-	        	if( System.getProperty("os.name").toLowerCase().contains("mac") ){
+	        	if( System.getProperty("os.name").toLowerCase().contains("mac") || System.getProperty("os.name").toLowerCase().contains("Linux") ){
 	        		path   = "//target//ToyReport1.html" ;
 	        	}else{
 	        		path   = "\\target\\ToyReport1.html";
