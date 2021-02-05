@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="10">
+	 <listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners> 
+	<test name="Test-Suite" preserve-order="true" verbose="2" >
+
+<classes>
+			
+			<class name="com.test.us.functional.SearchInventory" />
+			<class name="com.test.us.functional.SearchInventoryDriveTrain" />
+			<!-- 
+			<class name="com.test.smoke.GeoLocationSmoke" /> 
+			<class name="com.test.smoke.GlobalNav" /> 	
+			<class name="com.test.raqemail.us.desktop.RAQStandalone" /> 
+			<class name="com.test.raqemail.us.desktop.RAQSearchInventory" />
+			<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			 <class name="com.test.us.functional.BrochuresReceiveEmailForm" />
+			 -->
+						
+		
+		<!-- 
+		
+		Passed - Milestone 1 & 2
+		
+			<class name="com.test.smoke.GeoLocationSmoke" /> 
+			<class name="com.test.smoke.GlobalNav" /> 	
+		
+			<class name="com.test.raqemail.us.desktop.RAQStandalone" /> 
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	
+			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.desktop.RAQSearchInventory" />
+			<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" />
+								
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp" />
+			
+				
+			
+			<class name="com.test.us.functional.ValidateEmailYourToyotaForm" />
+			
+				
+			<class name="com.test.smoke.HyperLinkVerification" />
+			 <class name="com.test.us.functional.BrochuresReceiveEmailForm" />
+				
+								<class name="com.test.us.functional.HandraiserForms" />
+								
+			Failed
+			<class name="com.test.us.functional.HandraiserForms" />	
+								
+	
+			-->
+			
+
+		</classes>		
+	</test>
+</suite>
+
+
+

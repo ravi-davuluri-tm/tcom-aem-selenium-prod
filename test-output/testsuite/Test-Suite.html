@@ -1,0 +1,457 @@
+<html>
+<head>
+<title>TestNG:  Test-Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test-Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 03 13:42:44 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>244 seconds (244853 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp.RAQBuildAndPriceEspTest()'><b>RAQBuildAndPriceEspTest</b><br>Test class: com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp<br>Parameters: RequestQuoteModel [seriesName=RAV4 Prime 2021, trimName=null, firstName=sendto, lastName=text, zipCode=90703, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=AutoNation Toyota Cerritos, dealerCode=04636, commentText=Test ESP Desktop RAQ Build & Price 1612381571540, exteriorColor=01G3, interiorColor=FA20, price=39275, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt29500000]  language=null]<br/>
+<a href="#Output-18794137" onClick='toggleBox("Output-18794137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-18794137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-18794137">
+
+select espanol language<br/>
+
+Navigate Url with zip code 90703<br/>
+
+click on shopping tool menu<br/>
+
+Go to build and price page<br/>
+
+Select series from car list RAV4 Prime 2021<br/>
+
+Select model tab<br/>
+
+Select engien tab<br/>
+
+Select color tab<br/>
+
+Select package tab<br/>
+
+Select accessory tab<br/>
+
+Select summary tab<br/>
+
+fill request detail RequestQuoteModel [seriesName=RAV4 Prime 2021, trimName=null, firstName=sendto, lastName=text, zipCode=90703, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=AutoNation Toyota Cerritos, dealerCode=04636, commentText=Test ESP Desktop RAQ Build & Price 1612381571540, exteriorColor=null, interiorColor=null, price=39275, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt29500000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search vender' and 'Continue your Build' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp@794cb805</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQBuildAndPrice.RAQBuildAndPriceTest()'><b>RAQBuildAndPriceTest</b><br>Test class: com.test.raqemail.us.desktop.RAQBuildAndPrice<br>Parameters: RequestQuoteModel [seriesName=2021 GR Supra, trimName=2.0L Twin- Scroll Single Turbo 8-Speed AT with Paddle Shifters, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17Legacy st, city=LA, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUS desktop RAQ Build & Price 1612381430635, exteriorColor=0D01, interiorColor=LA20, price=44035, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10550000]  language=null]<br/>
+<a href="#Output-1510518916" onClick='toggleBox("Output-1510518916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1510518916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1510518916">
+
+Navigate Url with zip code 75010<br/>
+
+Go to build and price page<br/>
+
+Select series from car list 2021 GR Supra<br/>
+
+Select model tab<br/>
+
+Select engien tab<br/>
+
+Select color tab<br/>
+
+Select package tab<br/>
+
+Select accessory tab<br/>
+
+Select summary tab<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 GR Supra, trimName=2.0L Twin- Scroll Single Turbo 8-Speed AT with Paddle Shifters, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17Legacy st, city=LA, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUS desktop RAQ Build & Price 1612381430635, exteriorColor=null, interiorColor=null, price=44035, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10550000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search vender' and 'Continue your Build' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.test.raqemail.us.desktop.RAQBuildAndPrice@6e0dec4a</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQContactADealer.RAQContactADealerTest()'><b>RAQContactADealerTest</b><br>Test class: com.test.raqemail.us.desktop.RAQContactADealer<br>Parameters: RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Contact a dealer Standalone 1612381410626, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-1211297851" onClick='toggleBox("Output-1211297851", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1211297851" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1211297851">
+
+Navigate Url with zip code 75010<br/>
+
+Navigate Contact a Dealer menu from shopping tool menu<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Contact a dealer Standalone 1612381410626, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'local special ' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.test.raqemail.us.desktop.RAQContactADealer@56528192</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQFindADealer.RAQFindADealerByDealerIdTest()'><b>RAQFindADealerByDealerIdTest</b><br>Test class: com.test.raqemail.us.desktop.RAQFindADealer<br>Parameters: RequestQuoteModel [seriesName=2021 COROLLA, trimName=SE — 2.0L 4-CYLINDER (CVT), firstName=sendto, lastName=text, zipCode=90010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=Toyota of Hollywood, dealerCode=04102, commentText=TestUS desktop FindADealer 1612381475999, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-1928481412" onClick='toggleBox("Output-1928481412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1928481412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1928481412">
+
+Navigate Url with zip code 90010<br/>
+
+Navigated to dealer url<br/>
+
+Page title verfied<br/>
+
+Click on RAQ button<br/>
+
+Verify dealer name<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify 'Search vender' and 'Build your own' buttons<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.test.raqemail.us.desktop.RAQFindADealer@5ccddd20</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQFindADealer.RAQFindADealerByDealersPageTest()'><b>RAQFindADealerByDealersPageTest</b><br>Test class: com.test.raqemail.us.desktop.RAQFindADealer<br>Parameters: RequestQuoteModel [seriesName=2021 COROLLA, trimName=SE — 2.0L 4-CYLINDER (CVT), firstName=sendto, lastName=text, zipCode=90010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=Toyota of Hollywood, dealerCode=04102, commentText=TestUS desktop FindADealer 1612381493701, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-1537618192" onClick='toggleBox("Output-1537618192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1537618192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1537618192">
+
+Navigate Url with zip code 90010<br/>
+
+Navigated find a dealer page<br/>
+
+Click on RAQ button<br/>
+
+Verify dealer name<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify 'Search vender' and 'Build your own' buttons<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.test.raqemail.us.desktop.RAQFindADealer@5ccddd20</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQFindYourMatch.RAQFindYourMatchTest()'><b>RAQFindYourMatchTest</b><br>Test class: com.test.raqemail.us.desktop.RAQFindYourMatch<br>Parameters: Out With Family, We Need a Little, We Pack Light, Stay Near Home, RequestQuoteModel [seriesName=2021 Camry, trimName=SE — 203-HP 2.5-L 4-CYLINDER 8-SPEED AUTOMATIC, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 dallas, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUS find Your Match  1612381517660, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-1453795463" onClick='toggleBox("Output-1453795463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453795463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453795463">
+
+Navigate Url with zip code 75010<br/>
+
+Navigated find a match page<br/>
+
+Navigated to find a match options<br/>
+
+Get series name from list<br/>
+
+Click on RAQ button<br/>
+
+Fill RAQ form<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 Camry, trimName=SE — 203-HP 2.5-L 4-CYLINDER 8-SPEED AUTOMATIC, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 dallas, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUS find Your Match  1612381517660, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search Inventory' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.raqemail.us.desktop.RAQFindYourMatch@1ed1993a</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQFindYourMatch.RAQFindYourMatchTest()'><b>RAQFindYourMatchTest</b><br>Test class: com.test.raqemail.us.desktop.RAQFindYourMatch<br>Parameters: Off to Work,Commuting to Work,Going to the Office,Being Efficient, RequestQuoteModel [seriesName=2021 Prius, trimName=L ECO — 1.8L 4-CYL. HYBRID, firstName=sendto, lastName=text, zipCode=90010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=Toyota of Hollywood, dealerCode=04102, commentText=TestUS find Your Match  1612381532529, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-998292323" onClick='toggleBox("Output-998292323", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998292323" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998292323">
+
+Navigate Url with zip code 90010<br/>
+
+Navigated find a match page<br/>
+
+Navigated to find a match options<br/>
+
+Get series name from list<br/>
+
+Click on RAQ button<br/>
+
+Fill RAQ form<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 Prius, trimName=L ECO — 1.8L 4-CYL. HYBRID, firstName=sendto, lastName=text, zipCode=90010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=Toyota of Hollywood, dealerCode=04102, commentText=TestUS find Your Match  1612381532529, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search Inventory' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.raqemail.us.desktop.RAQFindYourMatch@1ed1993a</td></tr>
+<tr>
+<td title='com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp.RAQSearchInventoryEspTest()'><b>RAQSearchInventoryEspTest</b><br>Test class: com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp<br>Parameters: RequestQuoteModel [seriesName=Corolla 2021, trimName=null, firstName=sendto, lastName=text, zipCode=90703, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=AutoNation Toyota Cerritos, dealerCode=04636, commentText=Test ESP Desktop RAQ Search And Inventory 1612381597067, exteriorColor=0040, interiorColor=FA10/accessory/CF, price=21169, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt12130000]  language=null]<br/>
+<a href="#Output-1209308520" onClick='toggleBox("Output-1209308520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209308520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209308520">
+
+select espanol language<br/>
+
+Navigate Url with zip code 90703<br/>
+
+click on shopping tool menu<br/>
+
+Go to search inventory page<br/>
+
+Select car from search inventory page<br/>
+
+click on view details page<br/>
+
+fill request detail RequestQuoteModel [seriesName=Corolla 2021, trimName=null, firstName=sendto, lastName=text, zipCode=90703, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=LA, vendorName=AutoNation Toyota Cerritos, dealerCode=04636, commentText=Test ESP Desktop RAQ Search And Inventory 1612381597067, exteriorColor=0040, interiorColor=FA10/accessory/CF, price=21169, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt12130000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'View Local Offers' and 'Apply for Financing your Build' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp@4b5a5ed1</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQSearchInventory.RAQSearchInventoryTest()'><b>RAQSearchInventoryTest</b><br>Test class: com.test.raqemail.us.desktop.RAQSearchInventory<br>Parameters: RequestQuoteModel [seriesName=2021 Corolla Hybrid, trimName=null, firstName=sendto, lastName=text, zipCode=75024, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 plano st, city=plano, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs desktop Search Inventory 1612381456814, exteriorColor=0040, interiorColor=FB10, price=24445, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=TWTT10810000]  language=null]<br/>
+<a href="#Output-100805003" onClick='toggleBox("Output-100805003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-100805003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-100805003">
+
+Navigate Url with zip code 75024<br/>
+
+click on shopping tool menu<br/>
+
+Go to search inventory page<br/>
+
+Select car from search inventory page<br/>
+
+click on view details page<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 Corolla Hybrid, trimName=null, firstName=sendto, lastName=text, zipCode=75024, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 plano st, city=plano, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs desktop Search Inventory 1612381456814, exteriorColor=0040, interiorColor=FB10, price=24445, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=TWTT10810000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'View Local Offers' and 'Apply for Financing your Build' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.test.raqemail.us.desktop.RAQSearchInventory@96def03</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQStandalone.RAQStandAloneTest()'><b>RAQStandAloneTest</b><br>Test class: com.test.raqemail.us.desktop.RAQStandalone<br>Parameters: RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Standalone 1612381372451, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-1602785474" onClick='toggleBox("Output-1602785474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1602785474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1602785474">
+
+Navigate Url with zip code 75010<br/>
+
+click on shopping tool menu<br/>
+
+click on request a quote menu<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Standalone 1612381372451, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search Inventory' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.test.raqemail.us.desktop.RAQStandalone@49c386c8</td></tr>
+<tr>
+<td title='com.test.raqemail.us.desktop.RAQStandalone.RAQStandAloneTest1()'><b>RAQStandAloneTest1</b><br>Test class: com.test.raqemail.us.desktop.RAQStandalone<br>Parameters: RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Standalone 1612381389241, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+<a href="#Output-59465509" onClick='toggleBox("Output-59465509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-59465509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-59465509">
+
+Navigate Url with zip code 75010<br/>
+
+click on shopping tool menu<br/>
+
+click on request a quote menu<br/>
+
+fill request detail RequestQuoteModel [seriesName=2021 4RUNNER, trimName=TRD PRO — 4X4 4.0L V6 ENGINE 5-SPEED AUTOMATIC TRANSMISSION, firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 los angeles st, city=TX, vendorName=Toyota of Plano, dealerCode=42221, commentText=TestUs Desktop RAQ Standalone 1612381389241, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=twtt10570000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify 'Search Inventory' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.test.raqemail.us.desktop.RAQStandalone@49c386c8</td></tr>
+<tr>
+<td title='com.test.raqemail.espanol.desktop.RAQStandaloneEsp.RAQStandaloneEspTest()'><b>RAQStandaloneEspTest</b><br>Test class: com.test.raqemail.espanol.desktop.RAQStandaloneEsp<br>Parameters: RequestQuoteModel [seriesName=COROLLA 2021, trimName=XLE — MOTOR 4 CIL. DE 1.8 L (CVT), firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 set region, city=FL, vendorName=Toyota of Plano, dealerCode=42221, commentText=Test ESP Desktop RAQ Standalone 1612381553686, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=TWTT12110000]  language=null]<br/>
+<a href="#Output-1886136102" onClick='toggleBox("Output-1886136102", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886136102" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886136102">
+
+select espanol language<br/>
+
+Navigate Url with zip code 75010<br/>
+
+click on shopping tool menu<br/>
+
+click on request a quote menu<br/>
+
+fill request detail RequestQuoteModel [seriesName=COROLLA 2021, trimName=XLE — MOTOR 4 CIL. DE 1.8 L (CVT), firstName=sendto, lastName=text, zipCode=75010, email=icxtoyota@gmail.com, phone=223-432-4324, address=17 set region, city=FL, vendorName=Toyota of Plano, dealerCode=42221, commentText=Test ESP Desktop RAQ Standalone 1612381553686, exteriorColor=null, interiorColor=null, price=null, offerRibbon=null, offerDescription=null, siteName=website, campaignCode=TWTT12110000]  language=null]<br/>
+
+click on submit button<br/>
+
+Verify message request send successfully<br/>
+
+Verify message Thank you! A dealer will contact you soon with a quote on your new Vehicle.<br/>
+
+Verify RAQ confirmation grade message with Vehicle info<br/>
+
+Verify 'Search vender' and 'Build your own' buttons<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.test.raqemail.espanol.desktop.RAQStandaloneEsp@1f3f4916</td></tr>
+</table><p>
+</body>
+</html>

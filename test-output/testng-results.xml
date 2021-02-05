@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[
+Navigate Url with zip code ?zipcode=90010]]>
+    </line>
+    <line>
+      <![CDATA[
+Navigate Url with /corolla/compare/corolla-vs-civic/]]>
+    </line>
+    <line>
+      <![CDATA[
+expand all 'Read more key benefits' buttons]]>
+    </line>
+    <line>
+      <![CDATA[
+Verify first set mid menus buttons]]>
+    </line>
+    <line>
+      <![CDATA[
+Verify button menus buttons]]>
+    </line>
+  </reporter-output>
+  <suite name="Failed suite [Smoke Test]" duration-ms="10738" started-at="2021-02-03T21:33:06Z" finished-at="2021-02-03T21:33:17Z">
+    <groups>
+    </groups>
+    <test name="Test-Suite(failed)" duration-ms="10738" started-at="2021-02-03T21:33:06Z" finished-at="2021-02-03T21:33:17Z">
+      <class name="com.test.us.functional.VerifyPagesDetail">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="before" is-config="true" duration-ms="490" started-at="2021-02-03T15:33:06Z" finished-at="2021-02-03T15:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="setUp" is-config="true" duration-ms="2210" started-at="2021-02-03T15:33:06Z" finished-at="2021-02-03T15:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateUrl()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="navigateUrl" is-config="true" duration-ms="140" started-at="2021-02-03T15:33:08Z" finished-at="2021-02-03T15:33:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Navigate Url with zip code ?zipcode=90010]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateUrl -->
+        <test-method status="PASS" signature="setTest(java.lang.reflect.Method)[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="setTest" is-config="true" duration-ms="2260" started-at="2021-02-03T15:33:08Z" finished-at="2021-02-03T15:33:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.us.functional.VerifyPagesDetail.testVerifyCompareVehiclePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method status="PASS" signature="testVerifyCompareVehiclePage()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="testVerifyCompareVehiclePage" duration-ms="5991" started-at="2021-02-03T15:33:11Z" finished-at="2021-02-03T15:33:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Navigate Url with /corolla/compare/corolla-vs-civic/]]>
+            </line>
+            <line>
+              <![CDATA[
+expand all 'Read more key benefits' buttons]]>
+            </line>
+            <line>
+              <![CDATA[
+Verify first set mid menus buttons]]>
+            </line>
+            <line>
+              <![CDATA[
+Verify button menus buttons]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyCompareVehiclePage -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2021-02-03T15:33:17Z" finished-at="2021-02-03T15:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyCompareVehiclePage status=SUCCESS method=VerifyPagesDetail.testVerifyCompareVehiclePage()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51] output=
+Navigate Url with /corolla/compare/corolla-vs-civic/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="afterClass" is-config="true" duration-ms="114" started-at="2021-02-03T15:33:17Z" finished-at="2021-02-03T15:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.test.us.functional.VerifyPagesDetail@3b088d51]" name="tearDownSuite" is-config="true" duration-ms="0" started-at="2021-02-03T15:33:17Z" finished-at="2021-02-03T15:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.test.us.functional.VerifyPagesDetail -->
+    </test> <!-- Test-Suite(failed) -->
+  </suite> <!-- Failed suite [Smoke Test] -->
+</testng-results>

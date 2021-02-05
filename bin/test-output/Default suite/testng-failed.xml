@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.RequestAQuote">
+        <methods>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="testRequestQuote"/>
+          <include name="closeDriverSession"/>
+          <include name="tearDownSuite"/>
+          <include name="afterMainMethod"/>
+          <include name="setTest"/>
+        </methods>
+      </class> <!-- com.test.RequestAQuote -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

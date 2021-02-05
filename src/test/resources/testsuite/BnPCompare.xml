@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="10">
+	 <listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners> 
+	<test name="Test-Suite" preserve-order="true" verbose="2" >
+		<classes>
+
+			<class name="com.test.smoke.CompareBuildPriceContent">
+
+				<methods>
+					<exclude name="CompareBuildPriceSUVContentTest" />
+					<exclude name="CompareBuildPriceCarContentTest" />
+					<include name="CompareBuildPriceTruckContentTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
+

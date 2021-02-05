@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="10">
+
+
+	<listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners>
+	
+	<test name="Test-Suite" preserve-order="true" verbose="2" >
+		<classes>
+		
+			<class name="com.test.us.functional.VerifyPagesDetail" />
+			
+		  		
+		
+		<!-- 
+			<class name="com.test.us.functional.SearchInventory" />
+			<class name="com.test.us.functional.SearchInventoryDriveTrain" />
+		<class name="com.test.us.functional.BuildAndPrice" />
+			<class name="com.test.us.functional.BuildAndPriceOptionsCar" />
+			<class name="com.test.us.functional.BuildAndPriceOptionsTruck" />	
+			
+			<class name="com.test.us.functional.WhatFitsMyBudget" />
+			<class name="com.test.us.functional.RAQSETRules" />
+			<class name="com.test.us.functional.VerifyTDACookieGXP" />
+			<class name="com.test.api.DISResponse" />
+			<class name="com.test.api.HandraiserAPI" />
+		    <class name="com.test.us.functional.GXPSmartPath" />
+			<class name="com.test.us.functional.MultiTDA" />  
+		
+		 <class name="com.test.smoke.AppSmoke" />
+			<class name="com.test.us.functional.DGEnvironmentMapping" />
+			<class name="com.test.us.functional.URLOfferType" />  
+			<class name="com.test.us.functional.AdDisclaimer" />  
+			<class name="com.test.us.functional.FindADealerSETProximity" />  
+			<class name="com.test.us.functional.GeoLocated" />
+			
+			<class name="com.test.us.functional.MultiTDA" />  
+			<class name="com.test.us.functional.RAQSETRules" />
+			<class name="com.test.us.functional.SearchInventory" />
+			<class name="com.test.us.functional.BuildAndPrice" />
+			<class name="com.test.us.functional.BuildAndPriceOptionsCar" />
+			<class name="com.test.us.functional.BuildAndPriceOptionsTruck" />	
+		
+		<class name="com.test.us.functional.FindADealerSETProximity" />
+		<class name="com.test.us.functional.RAQSETRules" />
+		 <class name="com.test.us.functional.RAQCertifiedMiraiPMADealerList" />
+			 -->
+
+		</classes>
+	</test>
+</suite>

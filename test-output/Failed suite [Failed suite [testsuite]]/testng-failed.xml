@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Failed suite [Failed suite [testsuite]]]">
+  <listeners>
+    <listener class-name="com.toy.report.TestListener"/>
+  </listeners>
+  <test name="Test-Suite(failed)(failed)(failed)">
+    <classes>
+      <class name="com.test.smoke.AppSmoke">
+        <methods>
+          <include name="setUp"/>
+          <include name="before"/>
+          <include name="AppSmokeTest"/>
+        </methods>
+      </class> <!-- com.test.smoke.AppSmoke -->
+    </classes>
+  </test> <!-- Test-Suite(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [testsuite]]] -->

@@ -1,0 +1,118 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="10">
+
+	<listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners>
+	
+	<test name="Test-Suite" preserve-order="true" verbose="2">
+
+ <classes>
+ 				
+ 
+ 			<class name="com.test.raqemail.us.desktop.RAQStandalone" />
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	
+ 			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.desktop.RAQSearchInventory" />	
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	
+ 	  		<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" />
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp" />
+		
+			<!-- 
+			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.desktop.RAQSearchInventory" />	
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	
+ 	  		<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" />
+			<class name="com.test.raqemail.us.desktop.RAQZEV" />
+			
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQBuildAndPriceEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp" />
+			<class name="com.test.raqemail.espanol.desktop.RAQZEVEsp" />
+			
+			<class name="com.test.raqemail.us.mobile.RAQStandaloneMobile" /> 	
+ 			<class name="com.test.raqemail.us.mobile.RAQSearchInventoryMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQBuildAndPriceMobile" />
+			<class name="com.test.raqemail.us.mobile.RAQContactADealerMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQFindADealerMobile" /> 
+			
+			<class name="com.test.raqemail.espanol.mobile.RAQStandaloneEspMobile" />
+			<class name="com.test.raqemail.espanol.mobile.RAQBuildAndPriceEspMobile" />
+ 			<class name="com.test.raqemail.espanol.mobile.RAQSearchInventoryEspMobile" />
+ 			
+	 -->
+	
+	<!-- 
+	<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+ 			<class name="com.test.raqemail.us.mobile.RAQBuildAndPriceMobile" />
+	<class name="com.test.raqemail.us.mobile.RAQStandaloneMobile" />
+		<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+		<class name="com.test.raqemail.espanol.mobile.RAQStandaloneEspMobile" />
+		
+			<class name="com.test.raqemail.us.desktop.RAQStandalone" />
+			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.mobile.RAQStandaloneMobile" />
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	 
+			<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" /> 
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+			<class name="com.test.raqemail.us.mobile.RAQSearchInventoryMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQBuildAndPriceMobile" />
+			<class name="com.test.raqemail.us.mobile.RAQFindADealerMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQContactADealerMobile" /> 
+			<class name="com.test.raqemail.espanol.mobile.RAQBuildAndPriceEspMobile" />
+	<class name="com.test.raqemail.email.RAQEmailDataVerification" /> 
+
+
+
+			<class name="com.test.raqemail.us.desktop.RAQStandalone" />
+			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.mobile.RAQStandaloneMobile" />
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	 
+			<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" /> 
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+			<class name="com.test.raqemail.us.mobile.RAQSearchInventoryMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQBuildAndPriceMobile" />
+			<class name="com.test.raqemail.us.mobile.RAQFindADealerMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQContactADealerMobile" /> 
+			<class name="com.test.raqemail.espanol.mobile.RAQBuildAndPriceEspMobile" />
+			
+			
+					<class name="com.test.raqemail.espanol.mobile.RAQBuildAndPriceEspMobile" />
+			
+ 		
+	
+	 -->
+	  	<!--lane8	
+	  	<class name="com.test.raqemail.us.desktop.RAQFindADealer" /> 
+			<class name="com.test.raqemail.us.desktop.RAQFindYourMatch" />
+			<class name="com.test.raqemail.us.desktop.RAQStandalone" />
+			<class name="com.test.raqemail.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	 
+			<class name="com.test.raqemail.us.desktop.RAQZEV" />
+			<class name="com.test.raqemail.espanol.desktop.RAQStandaloneEsp" />
+ 			<class name="com.test.raqemail.us.mobile.RAQSearchInventoryMobile" /> 
+			<class name="com.test.raqemail.us.mobile.RAQBuildAndPriceMobile" />
+			<class name="com.test.raqemail.us.mobile.RAQContactADealerMobile" /> 
+			 <class name="com.test.raqemail.us.mobile.RAQFindADealerMobile" /> 
+			  	<class name="com.test.raqemail.espanol.mobile.RAQBuildAndPriceEspMobile" />
+ 	<class name="com.test.raqemail.espanol.mobile.RAQSearchInventoryEspMobile" />
+	<class name="com.test.raqemail.espanol.desktop.RAQSearchInventoryEsp" />
+	<class name="com.test.raqemail.espanol.desktop.RAQZEVEsp" />
+	  	
+	  		<class name="com.test.raqemail.us.desktop.RAQStandalone" />
+			<class name="com.test.raqemail.us.desktop.RAQContactADealer" />	
+			
+			<class name="com.test.us.functional.RAQCertifiedMiraiPMADealerList" />
+	  	<class name="com.test.raqemail.email.RAQEmailDataVerification" />     -->
+
+					
+	</classes>
+	</test>
+	
+</suite>

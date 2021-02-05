@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Failed_suite_[Smoke_Test]">
+              <span class="suite-name border-passed">Failed suite [Smoke Test]</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Failed_suite_[Smoke_Test]">
+                    <span>testng-failed.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Failed_suite_[Smoke_Test]">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Failed_suite_[Smoke_Test]">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Failed_suite_[Smoke_Test]">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Failed_suite_[Smoke_Test]">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Failed_suite_[Smoke_Test]">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Failed_suite_[Smoke_Test]">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Test]" class="hide-methods passed suite-Failed_suite_[Smoke_Test]"> (hide)</a> <!-- hide-methods passed suite-Failed_suite_[Smoke_Test] -->
+                      <a href="#" panel-name="suite-Failed_suite_[Smoke_Test]" class="show-methods passed suite-Failed_suite_[Smoke_Test]"> (show)</a> <!-- show-methods passed suite-Failed_suite_[Smoke_Test] -->
+                    </span>
+                    <div class="method-list-content passed suite-Failed_suite_[Smoke_Test]">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Failed_suite_[Smoke_Test]" title="com.test.us.functional.VerifyPagesDetail" hash-for-method="testVerifyCompareVehiclePage">testVerifyCompareVehiclePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Failed_suite_[Smoke_Test] -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Failed_suite_[Smoke_Test]" class="panel Failed_suite_[Smoke_Test]">
+          <div class="suite-Failed_suite_[Smoke_Test]-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.us.functional.VerifyPagesDetail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyCompareVehiclePage">
+                  </a> <!-- testVerifyCompareVehiclePage -->
+                  <span class="method-name">testVerifyCompareVehiclePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Failed_suite_[Smoke_Test]-class-passed -->
+        </div> <!-- panel Failed_suite_[Smoke_Test] -->
+        <div panel-name="test-xml-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/apadani/tcom-qa-automation/application/ToyAutomation/test-output/testng-failed.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;10&quot; name=&quot;Failed suite [Smoke Test]&quot; parallel=&quot;classes&quot;&gt;
+  &lt;parameter name=&quot;excelSheetName&quot; value=&quot;AEM&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.toy.report.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test-Suite(failed)&quot; parallel=&quot;classes&quot;&gt;
+    &lt;parameter name=&quot;excelSheetName&quot; value=&quot;AEM&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.us.functional.VerifyPagesDetail&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;afterClass&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;navigateUrl&quot;/&gt;
+          &lt;include name=&quot;testVerifyCompareVehiclePage&quot;/&gt;
+          &lt;include name=&quot;afterMainMethod&quot;/&gt;
+          &lt;include name=&quot;setTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.test.us.functional.VerifyPagesDetail --&gt;
+      &lt;class name=&quot;com.test.smoke.AppSmoke&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;navigateZipUrl&quot;/&gt;
+          &lt;include name=&quot;afterClass&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;tearDownSuite&quot;/&gt;
+          &lt;include name=&quot;before&quot;/&gt;
+          &lt;include name=&quot;afterMainMethod&quot;/&gt;
+          &lt;include name=&quot;setTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.test.smoke.AppSmoke --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-Suite(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Failed suite [Smoke Test] --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Failed suite [Smoke Test]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test-Suite(failed) (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Failed suite [Smoke Test]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Failed suite [Smoke Test]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Failed_suite_[Smoke_Test]');
+function tableData_Failed_suite_[Smoke_Test]() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testVerifyCompareVehiclePage')
+data.setCell(0, 2, 'com.test.us.functional.VerifyPagesDetail')
+data.setCell(0, 3, 5991);
+window.suiteTableData['Failed_suite_[Smoke_Test]']= { tableData: data, tableDiv: 'times-div-Failed_suite_[Smoke_Test]'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Failed_suite_[Smoke_Test]">
+              </div> <!-- times-div-Failed_suite_[Smoke_Test] -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Failed suite [Smoke Test]</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testVerifyCompareVehiclePage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">
+Navigate Url with /corolla/compare/corolla-vs-civic/</span>
+                <span class="reporter-method-output">
+expand all 'Read more key benefits' buttons</span>
+                <span class="reporter-method-output">
+Verify first set mid menus buttons</span>
+                <span class="reporter-method-output">
+Verify button menus buttons</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.us.functional.VerifyPagesDetail</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testConnectedServicesToyotaPage</span>
+                <br/>
+                <span class="ignored-method-name">testBrochuresPage</span>
+                <br/>
+                <span class="ignored-method-name">testConnectedServicesToyotaAppPage</span>
+                <br/>
+                <span class="ignored-method-name">testMaintenancePage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.smoke.AppSmoke</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownSuite</span>
+                <br/>
+                <span class="ignored-method-name">before</span>
+                <br/>
+                <span class="ignored-method-name">AppSmokeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Failed_suite_[Smoke_Test]" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.us.functional.VerifyPagesDetail</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">497 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">navigateUrl</span>
+                <span class="method-start">2707 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setTest(public void com.test.us.functional.VerifyPagesDetail.testVerifyCompareVehiclePage())</span>
+                <span class="method-start">2849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testVerifyCompareVehiclePage</span>
+                <span class="method-start">5109 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMainMethod([TestResult name=testVerifyCompareVehiclePage status=SUCCESS method=VerifyPagesDetail.testVerifyComp...)</span>
+                <span class="method-start">11113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">11114 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">11678 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

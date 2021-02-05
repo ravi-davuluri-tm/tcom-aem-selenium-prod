@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test" verbose="10" parallel="classes"
+	thread-count="3">
+
+	<listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners>
+
+	<test name="Test-Suite" preserve-order="true" verbose="2">
+		<parameter name="excelSheetName" value="AEM"></parameter>
+		<classes>
+			<class name="com.test.smoke.AppSmoke" />
+
+			<class name="com.test.us.functional.VerifyPagesDetail" />
+		</classes>
+		
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="com.toy.report.TestListener"/>
+  </listeners>
+  <test name="Test-Suite(failed)">
+    <classes>
+      <class name="com.test.us.functional.VerifyPagesDetail">
+        <methods>
+          <include name="testConnectedServicesToyotaPage"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+          <include name="navigateUrl"/>
+          <include name="tearDownSuite"/>
+          <include name="before"/>
+          <include name="afterMainMethod"/>
+          <include name="setTest"/>
+        </methods>
+      </class> <!-- com.test.us.functional.VerifyPagesDetail -->
+    </classes>
+  </test> <!-- Test-Suite(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="10" parallel="classes"
+	thread-count="2">
+	<listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners>
+	<test name="Test-Suite-Us" preserve-order="true" verbose="4">
+		<classes>
+			
+			<class name="com.test.us.desktop.RAQBuildAndPrice" />
+			<class name="com.test.us.desktop.RAQLocalSpecial" />
+			<class name="com.test.us.desktop.RAQSearchInventory" />
+			<class name="com.test.us.desktop.RAQStandalone" />
+			<class name="com.test.us.desktop.RAQFindADealer" />
+			<class name="com.test.us.desktop.RAQFindYourMatch" />
+
+			<class name="com.test.us.mobile.RAQBuildAndPriceMobile" />
+			<class name="com.test.us.mobile.RAQLocalSpecialMobile" />
+			<class name="com.test.us.mobile.RAQSearchInventoryMobile" />
+			<class name="com.test.us.mobile.RAQStandaloneMobile" /> 
+			
+		<!-- 	</classes> </test> <test name="Test-Suite-Esp" preserve-order="true" 
+				verbose="2"> <classes>
+				 -->
+			<class name="com.test.espanol.desktop.RAQBuildAndPriceEsp" />
+			<class name="com.test.espanol.desktop.RAQLocalSpecialEsp" />
+			<class name="com.test.espanol.desktop.RAQSearchInventoryEsp" />
+			<class name="com.test.espanol.desktop.RAQStandaloneEsp" />
+
+			<class name="com.test.espanol.mobile.RAQBuildAndPriceEspMobile" />
+			<class name="com.test.espanol.mobile.RAQLocalSpecialEspMobile" />
+			<class name="com.test.espanol.mobile.RAQSearchInventoryEspMobile" />
+			<class name="com.test.espanol.mobile.RAQStandaloneEspMobile" /> 
+
+
+		</classes>
+	</test>
+</suite>

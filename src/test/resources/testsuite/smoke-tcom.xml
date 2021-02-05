@@ -1,0 +1,76 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="10">
+	<listeners>
+		<listener class-name="com.toy.report.TestListener" />
+	</listeners>
+	<test name="Test-Suite" preserve-order="true" verbose="2">
+		<classes>
+			
+					
+					<class name="com.test.smoke.AppSmoke" />
+				
+				
+		</classes>
+		<!-- 
+		<classes>
+			<class name="com.test.smoke.GlobalNav" />
+			<class name="com.test.smoke.AppSmoke" />
+			<class name="com.test.smoke.InPageMenuNav" />
+			<class name="com.test.smoke.HyperLinkVerification" />
+			
+		    <class name="com.test.smoke.GeoLocationSmoke" />
+			<class name="com.test.smoke.SmokeRAQ" />
+			<class name="com.test.us.functional.RAQSETRules" />
+			<class name="com.test.us.functional.HandRaiserForm" />
+			<class name="com.test.us.functional.RequestAQuoteStandAlone" />
+			
+			<class name="com.test.us.functional.SearchInventoryDriveTrain" />
+			<class name="com.test.us.functional.FindADealerSETProximity" />
+			<class name="com.test.us.functional.VerifyTDACookieGXP" />
+			<class name="com.test.api.DISResponse" />
+			<class name="com.test.api.HandraiserAPI" />
+			
+			<class name="com.test.smoke.AppSmoke" />
+			<class name="com.test.smoke.InPageMenuNav" />
+			<class name="com.test.smoke.HyperLinkVerification" />
+			<class name="com.test.smoke.GlobalNav" />
+			<class name="com.test.us.functional.DGEnvironmentMapping" />
+			
+			<class name="com.test.raqemail.us.desktop.RAQZEV" />
+			<class name="com.test.raqemail.espanol.desktop.RAQZEVEsp" />
+			<class name="com.test.smoke.GlobalNav" />
+			<class name="com.test.smoke.GeoLocationSmoke" />
+			<class name="com.test.us.functional.VerifyTDACookieGXP" />
+			<class name="com.test.api.DISResponse" />
+			<class name="com.test.api.HandraiserAPI" />
+			<class name="com.test.smoke.SmokeRAQ" />
+			<class name="com.test.us.functional.RAQSETRules" />
+			<class name="com.test.us.functional.HandRaiserForm" />
+			<class name="com.test.us.functional.RequestAQuoteStandAlone" />
+			<class name="com.test.us.functional.SearchInventoryDriveTrain" />
+			<class name="com.test.us.functional.FooterLink" />
+
+			<class name="com.test.us.functional.WhatFitsMyBudget" />
+			<class name="com.test.us.functional.GXPSmartPath" />
+
+			<class name="com.test.us.functional.MultiTDA" />
+			<class name="com.test.us.functional.FindADealerSETProximity" />
+
+
+<class name="com.test.raqemail.us.desktop.RAQZEV" />
+					<class name="com.test.raqemail.espanol.desktop.RAQZEVEsp" />	
+					<class name="com.test.us.functional.DGEnvironmentMapping" />
+					<class name="com.test.smoke.GlobalNav" />
+					<class name="com.test.smoke.GeoLocationSmoke" />
+					<class name="com.test.us.functional.RAQSETRules" />
+					<class name="com.test.us.functional.HandRaiserForm" />
+				
+					<class name="com.test.us.functional.WhatFitsMyBudget" />
+
+		</classes>
+		 -->
+	</test>
+</suite>
+
+
+
